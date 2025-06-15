@@ -20,9 +20,10 @@
     "playwright": "^1.53.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.5",
-    "typescript": "^5.3.3",
+    "@modelcontextprotocol/inspector": "^0.5.0",
+    "@types/node": "^20.19.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.7.0",
-    "@modelcontextprotocol/inspector": "^0.5.0"
+    "typescript": "^5.8.3"
   }
 }
