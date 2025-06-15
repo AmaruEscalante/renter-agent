@@ -1,0 +1,561 @@
+{
+  "location": "SoMA Square Apartments San Francisco CA",
+  "totalReviews": 20,
+  "reviewsWithRatings": 20,
+  "averageRating": 3.1,
+  "ratingDistribution": {
+    "1": 7,
+    "2": 1,
+    "3": 3,
+    "4": 0,
+    "5": 9
+  },
+  "oldestReview": "January 13, 2023",
+  "newestReview": "June 12, 2025",
+  "scrapedAt": "2025-06-15T05:45:29.360Z",
+  "reviews": [
+    {
+      "review_id": "ChdDSUhNMG9nS0VLN0ZtZXlkOTlMRl9RRRAB",
+      "time": {
+        "published": "June 12, 2025",
+        "last_edited": "June 12, 2025"
+      },
+      "author": {
+        "name": "Apoorva Dabholkar",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjV41L-i948UMhCnMg8C0FhV2ELJxwuO8YK_3BfBIwfz5o00alSI=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/115931946267390237464?hl=en",
+        "id": "115931946267390237464"
+      },
+      "review": {
+        "rating": 3,
+        "text": "Giving 3 stars ONLY for the maintenance team and front desk folks at SOMA Square apartments. Maintenance requests are quickly looked after and Jeff and Eugenio are really helpful.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": null
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VNV1RwYlhhNGJlXzlBRRAB",
+      "time": {
+        "published": "June 9, 2025",
+        "last_edited": "June 9, 2025"
+      },
+      "author": {
+        "name": "Hong Gi Baek",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocJB4ulMtbpwZBz5WyEBIlXfjoA65GN1sGA8Y54-V-T_vGaLqw=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/114352242134505690330?hl=en",
+        "id": "114352242134505690330"
+      },
+      "review": {
+        "rating": 1,
+        "text": "Don’t trust the fake five star reviews: you will experience how awful this apartment is from day one of moving since you need to carry everything all the way from a street/mailroom",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Hi. Thank you for your review. We apologize for any negative experience you may have had. We're here to help and would appreciate the opportunity to address your concerns. Please reach out to our office so we can assist you further. Thank you.",
+        "time": {
+          "published": "June 9, 2025",
+          "last_edited": "June 9, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paalZWTnpZWEp6VWs5MllUTlhNWGh3ZFRsc1dIYxAB",
+      "time": {
+        "published": "June 9, 2025",
+        "last_edited": "June 9, 2025"
+      },
+      "author": {
+        "name": "Ikram Belayneh",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjXhyiAlgBxuRcfKspIw98z0am3NOdawDU5RDLEgHqySWM5mlcU=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/118000725569069760209?hl=en",
+        "id": "118000725569069760209"
+      },
+      "review": {
+        "rating": 1,
+        "text": "Living at Soma Square has been frustrating and, at times, unsafe. One tenant has been consistently intoxicated, leading to multiple disturbing incidents including physical altercations, false police reports and ongoing harassment. Despite several reports, management has done little to address the issue or protect other residents.\n\nSecurity overall is lacking. There have been thefts, and unfamiliar people frequently enter the building without question. It’s clear that resident safety and well-being are not treated as priorities. Future tenants should be aware that serious conflicts may be left unresolved, even when authorities are involved.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": null
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYaHZpX21BRRAB",
+      "time": {
+        "published": "October 15, 2024",
+        "last_edited": "June 2, 2025"
+      },
+      "author": {
+        "name": "Sammy Barance",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocJsE5IjZRRB7XPz9eUFItOIRFLG_jNVWselqUIHLXzYAZz-6w=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/117319678785272603262?hl=en",
+        "id": "117319678785272603262"
+      },
+      "review": {
+        "rating": 5,
+        "text": "I had a great experience this morning with equity resident handyman Jeff after the rack in my closet fell down. Jeff showed up to my apartment within hours and replaced the broken parts fixing the closet rack. Jeff was very courteous to me during the job. Jeff was also considerate of keeping my belongings and the area clean of dust from the drilling.\n\nI’ve always had positive interactions with Jeff over the years regardless of whether or not there’s an issue in my apartment. Equity residential is lucky to have such a professional and genuine employee as Jeff. Thank you Jeff.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Sammy, Thank you for sharing your positive experience! We're thrilled to hear that Jeff provided prompt and courteous service, and we appreciate your kind words about his professionalism and dedication.",
+        "time": {
+          "published": "October 15, 2024",
+          "last_edited": "October 15, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VQVFZqYUdaM3N5cEt3EAE",
+      "time": {
+        "published": "May 7, 2025",
+        "last_edited": "May 7, 2025"
+      },
+      "author": {
+        "name": "Loy Rowil Pabello",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocJeNF8XShiD8a13Q-6SQ26cE0Duz1FYZcadjQfH66zG7XeZt8o=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/108385463460085252685?hl=en",
+        "id": "108385463460085252685"
+      },
+      "review": {
+        "rating": 5,
+        "text": "I have stayed at SoMa square apartments for more than 2 years. I really enjoyed my stay here together with my dog. Most of all, I really appreciate the responsiveness of Pia Ladeza in terms of various questions I may have. She has always been accommodating and have excellent client service. I found a new place to stay but I will really miss it here.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Loy, We are so happy to hear about your wonderful experience here at SoMa Square Apartments! Thank you for recognizing our team's commitment to providing the very best customer service.",
+        "time": {
+          "published": "May 7, 2025",
+          "last_edited": "May 7, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUN6NUpUd3lRRRAB",
+      "time": {
+        "published": "May 30, 2024",
+        "last_edited": "April 9, 2025"
+      },
+      "author": {
+        "name": "Felipe Torres Rosado",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocL3QOlAflnc7Fm6T-nk2J9msvWS3btRvBR41ZAL7X-rDbLvdVE=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/111532548977717725710?hl=en",
+        "id": "111532548977717725710"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Amazing service, thank you thank you :) Carlos for your assistance and great work!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Felipe, We're thrilled to hear you enjoyed our service! Thank you so much for your kind words.",
+        "time": {
+          "published": "May 31, 2024",
+          "last_edited": "May 31, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNJNk8tVmZREAE",
+      "time": {
+        "published": "March 29, 2025",
+        "last_edited": "March 29, 2025"
+      },
+      "author": {
+        "name": "Sumedha",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocIb83he_Ds5GNDFuuLC6Sg0-j9s9m9IEZyjznSKzP-9w5bADQ=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/115119180532394515759?hl=en",
+        "id": "115119180532394515759"
+      },
+      "review": {
+        "rating": 1,
+        "text": "My review has changed from 4 to 1 over the past couple of years of living in this community. There are multiple issues here, including:\n\n1. Longer Entry/Exit Routes due to Continuous Construction: There is always some construction going on in this community. The elevators and stairs are frequently blocked, making it a longer route to enter or exit.\n\n2. Excessive Noise from Construction: On top of that, there is constant noise due to ongoing construction. For the entire year, something is always being worked on. If you plan to work from home, it’s nearly impossible. People in your meetings will hear the noise, and you’ll be forced to stay on mute to avoid disrupting the conversation.\n\n3. Frequent Water Shutoffs: Water shutoffs occur frequently in the building. They notify residents that the water supply will be stopped from 9:00 AM to 2:00 PM via email, but it often doesn’t return until 4:00 PM. At least one water shutoff happens per month. Sometimes, they send emails stating the water will be shut off on a certain day, but nothing happens. Then, they send another email scheduling it for a different day, only for it to be postponed again—this cycle can repeat 4-5 times. As a result, you must plan your day around these notifications, only to find out later that the shutdown didn’t happen.\n\n4. Ventilation Issues: The building has ventilation problems. If someone cooks seafood in the middle of the night, your apartment will be filled with the smell because the rooftop ventilation fans are not functional. I have been complaining about this issue for the past five months, but it remains unresolved. I have to keep my apartment doors open in the freezing winter and turn on my noisy kitchen ventilation fan, making it impossible to sleep.\n\n5. Unresponsive Management: The management does not reply to emails. If you visit their office, a staff member will say that the person responsible is not available—only for that same person to suddenly emerge from their office. When you ask why they haven’t responded to emails for two weeks, they simply say they’ve been busy.\n\n6. Increasing Rent Charges: Every year, the rent increases, but the quality of services has only declined.\n\nI have stayed here for a long time because of the convenient commute to my office and gym, but now it’s becoming too much to tolerate. There is no peace, certainty, or safety here. Don't come here!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Sumedha, Thank you for taking the time to share such detailed feedback. We’re truly sorry to hear that your experience in the community has declined over time. We understand how disruptive ongoing construction, noise, water shutoffs, and ventilation concerns can be—especially for residents working from home—and we sincerely regret the inconvenience this has caused. Your comments regarding communication and responsiveness from our team are also taken seriously. We aim to be transparent and attentive, and it’s clear we’ve fallen short of that expectation in your experience.\n\nPlease know that your concerns have been shared with our management team for further review. If you're open to discussing this in more detail, we would appreciate the opportunity to connect directly and work toward a resolution where possible.  Thank you again for your candid feedback and for being a resident of the community.",
+        "time": {
+          "published": "April 8, 2025",
+          "last_edited": "April 8, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTUR3X2VmNzJnRRAB",
+      "time": {
+        "published": "March 27, 2025",
+        "last_edited": "March 27, 2025"
+      },
+      "author": {
+        "name": "Varisa R",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjXipL6d9-0cM8R9Mh8IWPwEWoMclyfRE1Ah34iIn4h4yLZDxVp4=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/115402241384485157595?hl=en",
+        "id": "115402241384485157595"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Great services with mechanics. He fixed my online hub so now I can lock my door on my phone while I’m on vacation. He also unclogged my bathtub which is a plus. Very friendly and fast service. Thank you!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Varisa, We are so happy to hear about your wonderful experience here at SoMa Square Apartments! Thank you for recognizing our team's commitment to providing the very best customer service.",
+        "time": {
+          "published": "March 27, 2025",
+          "last_edited": "March 27, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnTUN3cjlEOUt3EAE",
+      "time": {
+        "published": "March 21, 2025",
+        "last_edited": "March 22, 2025"
+      },
+      "author": {
+        "name": "strat egy",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocIgTpbPsepc430I08RaZ_ThHzVYKs8a6BUL52LZwYxBZBENRg=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/111099187681534525627?hl=en",
+        "id": "111099187681534525627"
+      },
+      "review": {
+        "rating": 1,
+        "text": "DO NOT MOVE HERE unless your want 1) the front gate being blocked off for 5 months cuz they choose to do waterproofing in the rainy season 2) ppl’s grocery deliveries either stolen or go missing 3) Waking up to construction noise at least 1/3 of the month",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "We’re truly sorry to hear that your experience did not meet your expectations. Providing a positive and comfortable community for our residents is our top priority, and we regret that this was not the case for you. Please know that your feedback has been shared with our team as we work on improving. If there’s anything specific you’d like us to address, please don’t hesitate to reach out.",
+        "time": {
+          "published": "March 22, 2025",
+          "last_edited": "March 22, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUROLU1ITFlREAE",
+      "time": {
+        "published": "January 20, 2024",
+        "last_edited": "March 6, 2025"
+      },
+      "author": {
+        "name": "Meghna Natraj",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjV6eOTBehr-AFnkaeC73fIlangrMchk68Gq4vVcE2KlUdpwtGLjdA=s120-c-rp-mo-ba4-br100",
+        "url": "https://www.google.com/maps/contrib/107420782435432026542?hl=en",
+        "id": "107420782435432026542"
+      },
+      "review": {
+        "rating": 3,
+        "text": "Edit: I like living here. But I had a frustrating experience with my apartment and want to share some advice to help others avoid the same issues.\n\nWhat Happened:\n1.\tLoud Vent Noise: After moving in, I discovered a vent running loudly from 9 a.m. to 9 p.m., making it impossible to work. The leasing office suggested I “play music,” which was unhelpful. Listen to the video.\n2.\tUnexpected Fees: Expect charges $350+ in mandatory fees (e.g., package storage, internet, utilities) on top of rent.\n3.\tUnit Variability: Some units are well-renovated, while others have serious issues. Ground-floor units may have higher ceilings but risk pests near garages.\n4.\tForced Move: I was eventually offered a different unit but had to move again within a month, disrupting my work and leaving me exhausted.\n\nTips: Inspect Thoroughly: Check everything before and after moving in, document problems, and report them immediately.\n\nWhile I’m in a quieter unit now, the stress of moving twice and dealing with these issues was overwhelming. I hope this helps others avoid a similar experience. (Still exhausted even thinking about my double move). BTW I still stay here because other apartments nearby are wayyy more expensive 🙈",
+        "language": "en"
+      },
+      "images": [
+        {
+          "id": "CIHM0ogKEICAgIDNk_r33QE",
+          "url": "https://lh3.googleusercontent.com/geougc-cs/AB3l90BUyXKWI8lOyaK5QBX-NXXXEnQjRj_Pk7YlYinEXqaltf04Nj1TFRb0qSQImNuScg2cD4h38GrSDdHgKAuuTxfIYTTqa4XGnYafZme86F97ArK2acGuP6cE1ASuN4Daw8fcsyiY_g",
+          "size": {
+            "width": 720,
+            "height": 1280
+          },
+          "location": {
+            "friendly": "SoMa Square Apartments",
+            "lat": 37.783604582015194,
+            "long": -122.39766514110411
+          },
+          "caption": null
+        }
+      ],
+      "source": "Google",
+      "response": {
+        "text": "Thank you for taking the time to leave your review, Meghna! We are glad to hear that Pia, Tiffany, and the rest of our team were able to assist you. Thank you for choosing SoMa Square Apartments!",
+        "time": {
+          "published": "January 22, 2024",
+          "last_edited": "January 22, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURnMjdMemp3RRAB",
+      "time": {
+        "published": "February 27, 2025",
+        "last_edited": "February 27, 2025"
+      },
+      "author": {
+        "name": "Danesha Bishop",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocJWqkolw5Xbt5sTkeJDRzMEz-xpLDvUfbPcpwVczrWYo4Y2uQ=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/115112394968017642400?hl=en",
+        "id": "115112394968017642400"
+      },
+      "review": {
+        "rating": 1,
+        "text": "I’ve been living here for a year. I completely regret moving here. The rats are a big issue. If you’re a black person you will not feel welcomed nor comfortable. They have construction going on and it’s preventing resident from getting their packages successfully. Utilities have been going up and up every month of the year I have been living here. My utilities started off at $129 when I was constantly at home. For the past 9 months I barely spend time at home and use less water or trash and some how my utilities raised up to $407. I’ve had a bike stolen from right in front of my door while away on a trip. I can go on and on about how terrible this property is. DO NOT WASTE YOUR MONEY HERE!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Danesha, thank you for sharing your feedback. We’re genuinely sorry to hear that your experience has not met expectations. We understand how frustrating issues like pest concerns, theft, rising utilities, and ongoing construction can be, and we take these matters seriously. We also regret that you feel uncomfortable in the community. We strive to create an inclusive and welcoming environment for all residents. Your feedback is important to us, and we want to ensure everyone feels respected and valued.\n\nIf you have any unresolved issues or concerns, we encourage you to reach out to our management team directly so we can address them. We appreciate your residency and the opportunity to improve the experience for all of our residents.",
+        "time": {
+          "published": "February 28, 2025",
+          "last_edited": "February 28, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNneXRQb0V3EAE",
+      "time": {
+        "published": "February 15, 2025",
+        "last_edited": "February 15, 2025"
+      },
+      "author": {
+        "name": "Ish",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocJYs15Q4HLsq5vWv8V-whwLmdfh8LqxTV5JUaf1H4T2E5CY8g=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/114571516100384679827?hl=en",
+        "id": "114571516100384679827"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Jeff from the maintenance team is fantastic! He’s highly knowledgeable, quick to respond, and always resolves issues efficiently. His professionalism and courteous service make a huge difference. Truly appreciate his dedication and expertise!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Ish, Thank you for your wonderful review! We're happy to hear that Jeff's knowledge, quick response, and professionalism have made a positive impact on your experience.",
+        "time": {
+          "published": "February 18, 2025",
+          "last_edited": "February 18, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURCbklXck9nEAE",
+      "time": {
+        "published": "January 13, 2023",
+        "last_edited": "February 3, 2025"
+      },
+      "author": {
+        "name": "Phelisha Washington",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjUkfVHyNpjyzo3L3OAC0qSD2exjwsohSpYonRT9QvJO4nSIhiMx=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/117531493983505857752?hl=en",
+        "id": "117531493983505857752"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Tiffany,made the move in so effortlessly. , she guided me thew all the confusing paperwork,with ease,Tiffany Panerda,reassured me that this is where I wanted to be ,Thank You Tiffany,soma square .",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Hi, Phelisha. Thank you for sharing your positive experience at SoMa Square Apartments! We’re pleased to hear that our services and community team have been factors in making your experience a positive one. We genuinely appreciate the time you took to write this review. Thank you, and welcome to our community!",
+        "time": {
+          "published": "January 18, 2023",
+          "last_edited": "January 18, 2023"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURfNVBEVTh3RRAB",
+      "time": {
+        "published": "January 21, 2025",
+        "last_edited": "January 21, 2025"
+      },
+      "author": {
+        "name": "Charith Reddy Motla",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocIWo3NP4XDOIyj4b2Giv37tmg6zvOzukZ0glSCcN3_8Mnfg2g=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/101474636635394358074?hl=en",
+        "id": "101474636635394358074"
+      },
+      "review": {
+        "rating": 1,
+        "text": null,
+        "language": null
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Hi, Charith. We appreciate your review and apologize for any negative experience you may have had in our community. When you have an opportunity, please contact our management team or Resident Relations to discuss this further and explore how we can improve. Thank you!",
+        "time": {
+          "published": "January 23, 2025",
+          "last_edited": "January 23, 2025"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNQX29tVUxBEAE",
+      "time": {
+        "published": "November 24, 2024",
+        "last_edited": "November 24, 2024"
+      },
+      "author": {
+        "name": "Mikhaila Villani",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocLhj94ELmeP8w8UN7G9xm-sR2lpQRjiInV0xBrg4iLNsP-oTsU=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/113623149808083484505?hl=en",
+        "id": "113623149808083484505"
+      },
+      "review": {
+        "rating": 1,
+        "text": "Don’t move here. The manager, Mike, will consistently ignore your emails expressing concerns. The apartment complex will continue to have amenities that are either 'under maintenance’, broken, or inaccessible. On one occasion, I visited the leasing office and was told that Mike was busy, yet I saw him shopping for personal items on his laptop in the back.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Hello, Mikhaila. We appreciate you sharing your feedback with. Our goal is to provide the best customer experience possible for our residents and we regret it if we have not been able to achieve that. If you would like to discuss these concerns with management beyond your community team, please feel free to reach out to Resident Relations at any time. Thank you.",
+        "time": {
+          "published": "November 25, 2024",
+          "last_edited": "November 25, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQzem8zc1pBEAE",
+      "time": {
+        "published": "November 14, 2024",
+        "last_edited": "November 14, 2024"
+      },
+      "author": {
+        "name": "jagadeesh boddeda",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjX7JbVjAfdgQ-GLqrG1BPoQvyHcb57XyxmF0YNddHT_SJmAF16eqw=s120-c-rp-mo-ba4-br100",
+        "url": "https://www.google.com/maps/contrib/103493771396862778769?hl=en",
+        "id": "103493771396862778769"
+      },
+      "review": {
+        "rating": 3,
+        "text": null,
+        "language": null
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Hi, jagadeesh. We appreciate you taking the time to share this review. If you're willing to provide more feedback, we'd like to connect with you to discuss how we can improve your experience. Please contact our office when you have an opportunity.",
+        "time": {
+          "published": "November 15, 2024",
+          "last_edited": "November 15, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMzZ3NuX2ZREAE",
+      "time": {
+        "published": "November 3, 2024",
+        "last_edited": "November 3, 2024"
+      },
+      "author": {
+        "name": "Dianne Venturelli",
+        "profile_url": "https://lh3.googleusercontent.com/a/ACg8ocLWJhx8ZrU6R47OFuAAviHLW5Q5SpNh76_BK5cgTM5tIMgXrcs=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/100015629417760170277?hl=en",
+        "id": "100015629417760170277"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Very professional and knowledgeable. Always a positive attitude. I have always had a good experience with the maintenance crew here.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Dianne, Thank you for your positive review! We're delighted to hear that you've consistently had good experiences with our professional and knowledgeable maintenance team.",
+        "time": {
+          "published": "November 4, 2024",
+          "last_edited": "November 4, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURuODVQbDdnRRAB",
+      "time": {
+        "published": "October 9, 2024",
+        "last_edited": "October 9, 2024"
+      },
+      "author": {
+        "name": "Sowmya S",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjUwmGVf8IKXqPnarUvz2jalEZvCm7V0Gff7Xn3TvfrFgFfn1qc1=s120-c-rp-mo-ba2-br100",
+        "url": "https://www.google.com/maps/contrib/111753597585064274048?hl=en",
+        "id": "111753597585064274048"
+      },
+      "review": {
+        "rating": 2,
+        "text": "I visited this complex to tour the studio apartments since I know people who live here. My experience was pretty lackluster. The buildings are quite old, except for the newly constructed or renovated studios. The leasing agent, Pia, only allowed me to view three units, citing that others were under construction, even though they were listed as available. It felt like she wasn’t interested in spending much time with me, which was fine, but I even offered to self-tour, which wasn’t allowed since the units were new.\n\nA major inconvenience is the trash disposal process for these studios—you have to walk all the way across the garage, take an elevator up, and then find the trash room. It’s a hassle. Additionally, only the renovated units have a washer and dryer inside the unit. For other units, you have to use a shared laundry facility on the floor, which is not justifiable given the rent they charge.\n\nOn top of that, the utilities are quite costly. There’s a mandatory $60 internet fee for 1GB speed, with no option for a lower-speed plan. It feels like this is forced upon residents. The trash fee is around $100, which is very high, and there’s also a $9 Luxor package fee. It all feels like nickel-and-diming.\n\nAdditionally, for an ESA support animal, they require an interview with someone, which is something I’ve never encountered before. Overall, the added fees make it hard to justify renting here, especially when you can expect monthly utility costs for a single person to easily reach $300 or more. It’s disappointing compared to other buildings where you can provide a note from a provider for an ESA without all the extra hassle.\n\nThe only reason I see people renting here is that they don't realize there are better options out there, they like the location, or they’re simply used to living here.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Sowmya, Thank you for touring our community and sharing your feedback. We’re actively modernizing the community, including adding in-unit washers and dryers, as part of our commitment to enhancing the resident experience. Pia aimed to provide a smooth tour by showing ready units, as some are still under construction. For safety and quality, self-tours are limited to specific units. Our amenities, such as high-speed internet and package services, are standard for communities of our size, and our fees are designed to align with local norms. We also use a third-party service for ESA verification to ensure transparency and compliance.\n\nWhile we understand our community may not be the perfect fit for everyone, many residents enjoy the improvements, amenities, and location we offer. Thank you again for visiting, and we wish you the best in finding the right home for you!",
+        "time": {
+          "published": "October 18, 2024",
+          "last_edited": "October 18, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNuaTdXaTFRRRAB",
+      "time": {
+        "published": "September 29, 2024",
+        "last_edited": "September 29, 2024"
+      },
+      "author": {
+        "name": "Nancy Shen",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjUENMdTworLtGdLsnihq4qz9NBbOkfNfaimTmoiZWbITlRaLnYh=s120-c-rp-mo-br100",
+        "url": "https://www.google.com/maps/contrib/102317708919068724608?hl=en",
+        "id": "102317708919068724608"
+      },
+      "review": {
+        "rating": 5,
+        "text": "great & fast maintenance crew, service was very nice and kind too.",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Thank you for your positive feedback, Nancy! We're delighted to hear that our maintenance team provided great and fast service.",
+        "time": {
+          "published": "September 30, 2024",
+          "last_edited": "September 30, 2024"
+        }
+      }
+    },
+    {
+      "review_id": "ChRDSUhNMG9nS0VJQ0FnSURIaV9BTxAB",
+      "time": {
+        "published": "September 19, 2024",
+        "last_edited": "September 19, 2024"
+      },
+      "author": {
+        "name": "Natraju Turuvekere",
+        "profile_url": "https://lh3.googleusercontent.com/a-/ALV-UjXCB_x33yfSS30yU53bL-KSPmi3GSFgVbRp0csnlvpabwoLP5VL=s120-c-rp-mo-ba3-br100",
+        "url": "https://www.google.com/maps/contrib/111097157181957690807?hl=en",
+        "id": "111097157181957690807"
+      },
+      "review": {
+        "rating": 5,
+        "text": "Love staying here! The folks who help out are so nice! Eg: Jeff is an amazing person who has helped me with any issue in my apartment. Thanks a lottt jefffff!",
+        "language": "en"
+      },
+      "images": null,
+      "source": "Google",
+      "response": {
+        "text": "Thank you for your kind words! We're delighted to hear that Jeff has been so helpful and that you're enjoying your stay with us.",
+        "time": {
+          "published": "September 20, 2024",
+          "last_edited": "September 20, 2024"
+        }
+      }
+    }
+  ]
+}
