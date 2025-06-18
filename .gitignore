@@ -222,3 +222,5 @@ venv.bak/
 
 # Python environment variables
 .env
+
+.langgraph_api/
