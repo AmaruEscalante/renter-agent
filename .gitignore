@@ -219,3 +219,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Python environment variables
+.env

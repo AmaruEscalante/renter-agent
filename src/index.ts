@@ -4,9 +4,7 @@ import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { ListToolsRequestSchema, CallToolRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { chromium } from 'playwright';
-
-// @ts-ignore
-import { scraper } from "google-maps-review-scraper";
+import { scraper, SortType } from "./google-maps-scraper.js";
 
 const server = new Server({
   name: "google-maps-review-scraper",
@@ -155,7 +153,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "scrape-reviews": {
-        const { search_query, pages = 2, sort_type = "newest" } = args as { 
+        const { search_query, pages = 3, sort_type = "newest" } = args as { 
           search_query: string; 
           pages?: number; 
           sort_type?: string; 
@@ -170,7 +168,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         }
         
         const reviews = await scraper(urlToScrape, {
-          sort_type,
+          sort_type: sort_type as SortType,
           pages,
           clean: true
         });
@@ -232,80 +230,103 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "analyze-reviews": {
         const { reviews_data } = args as { reviews_data: string };
-        const data = JSON.parse(reviews_data);
+        
+        // Handle large payloads by parsing only essential data
+        let data;
+        try {
+          data = JSON.parse(reviews_data);
+        } catch (error) {
+          throw new Error("Invalid JSON data provided");
+        }
+        
         const reviews = data.reviews || [];
         
         if (!Array.isArray(reviews)) {
           throw new Error("Reviews data must contain an array of reviews");
         }
         
-        const stats = calculateReviewStats(reviews);
+        // Limit analysis to prevent memory issues with large datasets
+        const maxReviewsToAnalyze = 100;
+        const reviewsToAnalyze = reviews.slice(0, maxReviewsToAnalyze);
         
-        // Sentiment analysis based on ratings and keywords
-        const positiveKeywords = ['great', 'excellent', 'amazing', 'love', 'fantastic', 'wonderful', 'perfect', 'best', 'awesome', 'highly recommend'];
-        const negativeKeywords = ['terrible', 'awful', 'horrible', 'worst', 'hate', 'disgusting', 'disappointing', 'broken', 'dirty', 'rude'];
+        const stats = calculateReviewStats(reviewsToAnalyze);
         
-        const reviewAnalysis = reviews.map((review: any) => {
+        // Enhanced keyword lists for better analysis
+        const positiveKeywords = ['great', 'excellent', 'amazing', 'love', 'fantastic', 'wonderful', 'perfect', 'best', 'awesome', 'highly recommend', 'helpful', 'friendly', 'clean', 'beautiful', 'nice', 'good', 'responsive', 'quick'];
+        const negativeKeywords = ['terrible', 'awful', 'horrible', 'worst', 'hate', 'disgusting', 'disappointing', 'broken', 'dirty', 'rude', 'expensive', 'overpriced', 'theft', 'noise', 'loud', 'thin walls', 'problems', 'issues'];
+        
+        // Simplified sentiment analysis
+        const sentimentCounts = { positive: 0, neutral: 0, negative: 0 };
+        const keywordMatches: { positive: Record<string, number>, negative: Record<string, number> } = { positive: {}, negative: {} };
+        const commonIssues: string[] = [];
+        const commonPraises: string[] = [];
+        
+        reviewsToAnalyze.forEach((review: any) => {
           const text = review.review?.text?.toLowerCase() || '';
           const rating = review.review?.rating || 0;
           
-          const positiveMatches = positiveKeywords.filter(keyword => text.includes(keyword));
-          const negativeMatches = negativeKeywords.filter(keyword => text.includes(keyword));
+          // Count sentiment
+          if (rating >= 4) sentimentCounts.positive++;
+          else if (rating <= 2) sentimentCounts.negative++;
+          else sentimentCounts.neutral++;
           
-          return {
-            review_id: review.review_id,
-            rating,
-            sentiment: rating >= 4 ? 'positive' : rating <= 2 ? 'negative' : 'neutral',
-            positive_keywords: positiveMatches,
-            negative_keywords: negativeMatches,
-            text_length: text.length,
-            has_response: !!review.response
-          };
+          // Track keyword usage
+          positiveKeywords.forEach(keyword => {
+            if (text.includes(keyword)) {
+              keywordMatches.positive[keyword] = (keywordMatches.positive[keyword] || 0) + 1;
+            }
+          });
+          
+          negativeKeywords.forEach(keyword => {
+            if (text.includes(keyword)) {
+              keywordMatches.negative[keyword] = (keywordMatches.negative[keyword] || 0) + 1;
+            }
+          });
+          
+          // Extract common issues and praises (simplified)
+          if (text.includes('staff') && rating >= 4) commonPraises.push('Staff quality');
+          if (text.includes('maintenance') && rating >= 4) commonPraises.push('Maintenance service');
+          if (text.includes('amenities') && rating >= 4) commonPraises.push('Amenities');
+          if (text.includes('location') && rating >= 4) commonPraises.push('Location');
+          
+          if (text.includes('expensive') || text.includes('overpriced')) commonIssues.push('High cost');
+          if (text.includes('noise') || text.includes('loud')) commonIssues.push('Noise issues');
+          if (text.includes('theft') || text.includes('stolen')) commonIssues.push('Security concerns');
+          if (text.includes('maintenance') && rating <= 2) commonIssues.push('Maintenance problems');
         });
         
-        const sentimentCounts = {
-          positive: reviewAnalysis.filter(r => r.sentiment === 'positive').length,
-          neutral: reviewAnalysis.filter(r => r.sentiment === 'neutral').length,
-          negative: reviewAnalysis.filter(r => r.sentiment === 'negative').length
-        };
+        // Get top keywords
+        const topPositiveKeywords = Object.entries(keywordMatches.positive)
+          .sort(([,a], [,b]) => (b as number) - (a as number))
+          .slice(0, 5)
+          .map(([keyword, count]) => ({ keyword, count }));
+          
+        const topNegativeKeywords = Object.entries(keywordMatches.negative)
+          .sort(([,a], [,b]) => (b as number) - (a as number))
+          .slice(0, 5)
+          .map(([keyword, count]) => ({ keyword, count }));
         
-        const commonPositiveKeywords = positiveKeywords
-          .map(keyword => ({
-            keyword,
-            count: reviews.filter((r: any) => r.review?.text?.toLowerCase().includes(keyword)).length
-          }))
-          .filter(item => item.count > 0)
-          .sort((a, b) => b.count - a.count)
-          .slice(0, 10);
-        
-        const commonNegativeKeywords = negativeKeywords
-          .map(keyword => ({
-            keyword,
-            count: reviews.filter((r: any) => r.review?.text?.toLowerCase().includes(keyword)).length
-          }))
-          .filter(item => item.count > 0)
-          .sort((a, b) => b.count - a.count)
-          .slice(0, 10);
-        
+        // Create simplified analysis result
         const analysisResult = {
-          ...stats,
-          sentiment_analysis: {
-            sentiment_distribution: sentimentCounts,
-            sentiment_percentage: {
-              positive: Math.round((sentimentCounts.positive / reviews.length) * 100),
-              neutral: Math.round((sentimentCounts.neutral / reviews.length) * 100),
-              negative: Math.round((sentimentCounts.negative / reviews.length) * 100)
+          summary: {
+            total_reviews: reviewsToAnalyze.length,
+            average_rating: stats.averageRating,
+            sentiment_breakdown: {
+              positive: `${Math.round((sentimentCounts.positive / reviewsToAnalyze.length) * 100)}%`,
+              neutral: `${Math.round((sentimentCounts.neutral / reviewsToAnalyze.length) * 100)}%`,
+              negative: `${Math.round((sentimentCounts.negative / reviewsToAnalyze.length) * 100)}%`
             }
           },
-          keyword_analysis: {
-            common_positive_keywords: commonPositiveKeywords,
-            common_negative_keywords: commonNegativeKeywords
+          insights: {
+            common_praises: [...new Set(commonPraises)].slice(0, 5),
+            common_issues: [...new Set(commonIssues)].slice(0, 5),
+            top_positive_keywords: topPositiveKeywords,
+            top_negative_keywords: topNegativeKeywords
           },
-          review_responses: {
-            total_responses: reviewAnalysis.filter(r => r.has_response).length,
-            response_rate: Math.round((reviewAnalysis.filter(r => r.has_response).length / reviews.length) * 100)
-          },
-          analyzed_at: new Date().toISOString()
+          rating_distribution: stats.ratingDistribution,
+          response_rate: `${Math.round((reviewsToAnalyze.filter((r: any) => r.response).length / reviewsToAnalyze.length) * 100)}%`,
+          analyzed_at: new Date().toISOString(),
+          note: reviews.length > maxReviewsToAnalyze ? `Analysis limited to first ${maxReviewsToAnalyze} reviews of ${reviews.length} total` : 'All reviews analyzed'
         };
         
         return {
