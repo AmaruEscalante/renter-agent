@@ -1,0 +1,31 @@
+[project]
+name = "renter-agent"
+version = "0.1.0"
+description = "Renter Agent"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Amaru Escalante", email = "amaruescalante@gmail.com" }]
+dependencies = [
+    "duckduckgo-search",
+    "fastapi>=0.115.13",
+    "fastmcp>=2.8.1",
+    "google-generativeai>=0.8.5",
+    "httpx>=0.28.1",
+    "langchain>=0.3.25",
+    "langchain-community",
+    "langchain-google-genai>=2.0.10",
+    "langchain-mcp-adapters>=0.1.7",
+    "langchain-openai>=0.3.24",
+    "langgraph-cli[inmem]>=0.3.3",
+    "markdownify",
+    "openai>=1.88.0",
+    "playwright>=1.52.0",
+    "requests",
+    "tavily-python>=0.7.7",
+    "uvicorn>=0.34.3",
+]
+[tool.setuptools]
+packages = ["renter_agent"]
+
+[tool.setuptools.package-dir]
+"renter_agent" = "src/renter_agent"
